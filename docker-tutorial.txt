@@ -1,0 +1,14 @@
+docker-compose.exe logs -f
+nano docker-compose.yaml
+docker-compose.exe down
+docker-compose.exe up -d
+docker-compose.exe logs -f
+nano docker-compose.yaml
+docker-compose.exe logs
+docker-compose.exe logs --tail 100 -f
+nano docker-compose.yaml
+docker-compose.exe reset
+docker-compose.exe down
+docker-compose.exe up -d
+nano docker-compose.yaml
+docker-machine start default

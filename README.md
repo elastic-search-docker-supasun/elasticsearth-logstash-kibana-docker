@@ -1,0 +1,1 @@
+"# elasticsearth-logstash-kibana-docker" 
